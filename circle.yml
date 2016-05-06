@@ -21,3 +21,4 @@ deployment:
     branch: staging
     commands:
       - aws s3 sync html/ s3://testmkamin2/ --delete
+      
